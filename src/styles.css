@@ -1,0 +1,155 @@
+/* Default Styles */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+
+
+/* Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Epilogue';
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.max-width {
+    max-width: 1440px;
+    margin: auto;
+    padding: 30px 40px;
+}
+
+/* Navbar Styles */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: hsl(0, 0%, 41%);
+}
+
+.navbar-1 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-1 .menu {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+.navbar-1 .menu li {
+    margin: 0px 20px;
+}
+
+.navbar .login-register .form {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .login-register .form li{
+    margin: 0px 20px;
+}
+
+.navbar .login-register .form .register-btn {
+    margin: 0px 10px;
+    padding: 10px 20px;
+    border: solid 1.2px gray;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.navbar .login-register .form .register-btn:hover {
+    margin: 0px 10px;
+    padding: 10px 20px;
+    color: white;
+    background-color: gray;
+    border: solid 1.2px white;
+    border-radius: 10px;
+}
+
+/* Hero Styles */
+.hero .max-width {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    padding-top: 25px;
+    align-items: flex-end;
+}
+
+
+.hero .max-width h1 {
+    font-size: 80px;
+    padding-bottom: 30px;
+}
+
+.hero .max-width p {
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    text-align: justify;
+    width: 430px;
+    padding-bottom: 50px;
+    line-height: 27px;
+}
+
+.hero .max-width a {
+    color: white;
+    background-color: black;
+    margin-top: 400px;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.hero .max-width .client {
+    padding-top: 60px;
+}
+
+.hero .max-width .client img{
+    margin-right: 40px;
+}
+
+.hero .max-width .image img {
+    width: auto;
+    height: 500px;
+    margin-left: 100px;
+}
+
+
+/* Attribution Styles */
+.attribution { 
+    font-size: 11px; 
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 24px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* 
+@media (max-width: 375px) {
+    .max-width {
+        padding-top: 15px;
+    }
+
+    .navbar-1 {
+        padding: 0px 10px;
+    }
+} */
